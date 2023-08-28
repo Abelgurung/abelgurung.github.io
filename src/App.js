@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./Navbar";
-import ResearchPage from "./Research";
-import Home from "./Home";
-// import CVPage from "./CVPage"; // Uncomment when you have this component
+import Navbar from "./navbar/Navbar";
+import ResearchPage from "./components/Research-page/Research";
+import Home from "./components/Main-page/Home";
+import CVPage from "./components/cv-page/CV"; // Uncomment when you have this component
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <div className="p-4">
           <Routes>
             <Route path="/research" element={<ResearchPage />} />
-            <Route path="/cv" element={<ResearchPage />} />
+            <Route path="/cv" element={<CVPage />} />
             <Route path="/" element={<Home />} />
           </Routes>
         </div>
