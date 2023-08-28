@@ -9,7 +9,7 @@ import anim3 from "./Selected-work/over-time.gif";
 const anims = [anim, anim2, anim3];
 const imgTitles = [
   "DNN Learning to Simulate Open Probability of Ion-channels ",
-  "Finding Trajectory of Cell Fate",
+  "Finding Cell Fate Trajectory",
   "Sequenctial Intermediate States to reach specific Target State",
 ];
 
