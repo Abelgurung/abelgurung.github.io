@@ -1,5 +1,4 @@
-import logo from "./logo.svg";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./navbar/Navbar";
 import ResearchPage from "./components/Research-page/Research";
 import Home from "./components/Main-page/Home";
