@@ -32,7 +32,7 @@ function App({ targetText, speed }) {
     }, speed);
 
     return () => clearInterval(timer);
-  }, [currentText, targetText]);
+  }, [currentText, targetText, speed]);
 
   return (
     <div>

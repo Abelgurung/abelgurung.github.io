@@ -1,13 +1,12 @@
 function App() {
   return (
     <div>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel nisi
-      eu felis hendrerit facilisis. Praesent non venenatis nunc. Sed posuere
-      dolor eget ipsum convallis, eu dignissim orci fringilla. Sed quis nisi a
-      tellus aliquet eleifend id at arcu. Ut non elit sagittis, facilisis mi
-      nec, sollicitudin libero. Vestibulum ante ipsum primis in faucibus orci
-      luctus et ultrices posuere cubilia Curae; Vestibulum pulvinar urna vel
-      varius. Fusce nec maximus velit. Quisque ut accumsan massa. Donec vehicula
+      I'm currently in my final year of undergrad, majoring in Mathematics with
+      a minor in Computer Science. I am passionate about leveraging
+      computational methods to develop tools and simulations that accelerate
+      advancements in biomedical research. I have experience building models
+      using monte carlo simulations and deep neural networks. Additionally, I
+      have also worked in wet labs where I have genetically edited HEK cells.
     </div>
   );
 }
