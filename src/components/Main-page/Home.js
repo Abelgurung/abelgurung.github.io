@@ -9,7 +9,6 @@ function Home() {
         <div className="col-span-12 md:col-span-4">
           <Socials />
         </div>
-
         <div className="col-span-12 md:col-span-8">
           <Typewriter targetText="Hey I am Abel" speed={8} />
           <Intro />

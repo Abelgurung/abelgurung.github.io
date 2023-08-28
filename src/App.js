@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./navbar/Navbar";
 import ResearchPage from "./components/Research-page/Research";
 import Home from "./components/Main-page/Home";
-import CVPage from "./components/cv-page/CV"; // Uncomment when you have this component
+import CVPage from "./components/cv-page/CV";
 
 function App() {
   return (

@@ -7,7 +7,7 @@ function Navbar() {
         <Link to="/" className="text-2xl font-bold">
           Home
         </Link>
-        <div className="space-x-4">
+        <div className="space-x-4 font-bold">
           <Link to="/research" className="">
             Research
           </Link>

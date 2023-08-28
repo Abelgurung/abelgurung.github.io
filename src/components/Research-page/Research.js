@@ -1,5 +1,5 @@
 function Research() {
-  return <h1>Hello, this is the Research page.</h1>;
+  return <h1>Work in progress</h1>;
 }
 
 export default Research;
