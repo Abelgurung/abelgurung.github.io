@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c0851fd.css",
-    "main.js": "/static/js/main.bdb5e5ba.js",
+    "main.css": "/static/css/main.58be8a94.css",
+    "main.js": "/static/js/main.d8ae5dad.js",
     "static/media/comp_22.gif": "/static/media/comp_22.d1c073ca41837a549884.gif",
     "static/media/over-time.gif": "/static/media/over-time.5ea7f1a210d55134ad4f.gif",
     "static/media/training_evolution.gif": "/static/media/training_evolution.e55e45d220028cfbb479.gif",
     "static/media/Abel Gurung_CV_July.pdf": "/static/media/Abel Gurung_CV_July.56f3d61fb56588fa729c.pdf",
     "index.html": "/index.html",
-    "main.7c0851fd.css.map": "/static/css/main.7c0851fd.css.map",
-    "main.bdb5e5ba.js.map": "/static/js/main.bdb5e5ba.js.map"
+    "main.58be8a94.css.map": "/static/css/main.58be8a94.css.map",
+    "main.d8ae5dad.js.map": "/static/js/main.d8ae5dad.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c0851fd.css",
-    "static/js/main.bdb5e5ba.js"
+    "static/css/main.58be8a94.css",
+    "static/js/main.d8ae5dad.js"
   ]
 }
