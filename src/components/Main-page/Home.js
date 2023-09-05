@@ -10,7 +10,7 @@ const anims = [anim, anim2, anim3];
 const imgTitles = [
   "DNN Learning to Simulate Open Probability of Ion-channels ",
   "Finding Cell Fate Trajectory",
-  "Sequenctial Intermediate States to reach specific Target State",
+  "Sequential Intermediate States to reach specified specialized cell states",
 ];
 
 function Home() {
@@ -26,12 +26,12 @@ function Home() {
         </div>
       </div>
       <div>
-        <h1 className="font-[500] p-4">Seleted Works</h1>
+        <h1 className="font-[500] p-4">Selected Works</h1>
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {anims.map((src, index) => (
-              <div key={index} className="image-container">
-                <img src={src} className="h-[20rem]" />
+              <div key={index} className="space-y-1">
+                <img src={src} className="h-[10rem] md:h-[15rem]" />
                 <p className="text-center"> {imgTitles[index]}</p>
               </div>
             ))}

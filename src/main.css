@@ -1,0 +1,62 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://use.typekit.net/rzj8eff.css");
+
+img {
+  object-fit: scale-down;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  @apply font-[600];
+}
+
+h2 {
+  @apply font-[600];
+}
+
+.maintitle {
+  @apply font-[600];
+}
+
+.secondarytitle {
+  @apply font-[300];
+}
+
+.navbutton {
+  @apply border border-white text-sm px-[1rem] md:text-sm py-[.15rem] md:py-1 md:px-8 font-[400] hover:text-black hover:bg-white;
+}
+
+.mainfont {
+  @apply font-plex text-sm font-[200] bg-[#1c1b20] text-white px-[2rem] lg:px-[10rem] py-10 space-y-[2rem];
+}
+
+/* research-container {
+  @apply bg-[#2d2d36] py-4 grid gap-3 grid-cols-1 md:grid-cols-2 rounded-2xl;
+}
+
+
+research-sub-cont {
+  @apply m-8;
+} */
+/* 
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ */
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */

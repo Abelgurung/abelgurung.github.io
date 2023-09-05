@@ -34,11 +34,7 @@ function App({ targetText, speed }) {
     return () => clearInterval(timer);
   }, [currentText, targetText, speed]);
 
-  return (
-    <div>
-      <h1>{displayText}</h1>
-    </div>
-  );
+  return <div>{displayText}</div>;
 }
 
 export default App;
