@@ -5,7 +5,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className=" text-white">
+    <div>
       <div className="flex justify-between items-center">
         <Link to="/" className="navbutton">
           Home
