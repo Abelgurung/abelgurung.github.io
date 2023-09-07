@@ -1,16 +1,16 @@
-import Typewriter from "./Typewriter";
+import Typewriter from "../Typewriter";
 import Intro from "./Intro";
 import Socials from "./Socials";
 
 import anim from "./Selected-work/training_evolution.gif";
 import anim2 from "./Selected-work/comp_22.gif";
-import anim3 from "./Selected-work/over-time.gif";
+import anim3 from "./Selected-work/cellTrajectory.gif";
 
 const anims = [anim, anim2, anim3];
 const imgTitles = [
   "DNN Learning to Simulate Open Probability of Ion-channels ",
   "Finding Cell Fate Trajectory",
-  "Sequential Intermediate States to reach specified specialized cell states",
+  "Highlighting intermediate cell states required to reached specific terminal cell state",
 ];
 
 function Home() {
@@ -21,17 +21,17 @@ function Home() {
           <Socials />
         </div>
         <div className="col-span-12 md:col-span-8">
-          <Typewriter targetText="Hey I am Abel" speed={8} />
+          <Typewriter targetText="Hey I am Abel" speed={10} />
           {Intro}
         </div>
       </div>
       <div>
         <h1 className="font-[500] p-4">Selected Works</h1>
         <div className="flex justify-center">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
             {anims.map((src, index) => (
-              <div key={index} className="space-y-1">
-                <img src={src} className="h-[10rem] md:h-[15rem]" />
+              <div key={index} className="space-y-2">
+                <img src={src} className="h-[12rem] md:h-[15rem]" />
                 <p className="text-center"> {imgTitles[index]}</p>
               </div>
             ))}

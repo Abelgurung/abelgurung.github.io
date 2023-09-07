@@ -1,4 +1,4 @@
-import pdfFile from "./Abel Gurung_CV_July.pdf";
+import pdfFile from "./Abel Gurung_CV-Sep.pdf";
 
 function App() {
   return (
