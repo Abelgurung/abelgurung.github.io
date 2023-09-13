@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fcead3ac.css",
+    "main.css": "/static/css/main.b5287c01.css",
     "main.js": "/static/js/main.4e813715.js",
     "static/media/comp_22.gif": "/static/media/comp_22.d1c073ca41837a549884.gif",
     "static/media/cellTrajectory.gif": "/static/media/cellTrajectory.7b30b8d9b4e34a711b64.gif",
@@ -8,11 +8,11 @@
     "static/media/Abel_Gurung_SMART_presentation.jpg": "/static/media/Abel_Gurung_SMART_presentation.d90de5743d22b4cc2e8d.jpg",
     "static/media/Abel Gurung_CV-Sep.pdf": "/static/media/Abel Gurung_CV-Sep.f73153b5ab09bdfdc72f.pdf",
     "index.html": "/index.html",
-    "main.fcead3ac.css.map": "/static/css/main.fcead3ac.css.map",
+    "main.b5287c01.css.map": "/static/css/main.b5287c01.css.map",
     "main.4e813715.js.map": "/static/js/main.4e813715.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcead3ac.css",
+    "static/css/main.b5287c01.css",
     "static/js/main.4e813715.js"
   ]
 }
