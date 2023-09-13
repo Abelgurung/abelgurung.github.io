@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e22019c4.css",
-    "main.js": "/static/js/main.5db6be74.js",
+    "main.css": "/static/css/main.4bb51073.css",
+    "main.js": "/static/js/main.c029b8a3.js",
     "static/media/comp_22.gif": "/static/media/comp_22.d1c073ca41837a549884.gif",
     "static/media/cellTrajectory.gif": "/static/media/cellTrajectory.7b30b8d9b4e34a711b64.gif",
     "static/media/training_evolution.gif": "/static/media/training_evolution.e55e45d220028cfbb479.gif",
     "static/media/Abel_Gurung_SMART_presentation.jpg": "/static/media/Abel_Gurung_SMART_presentation.d90de5743d22b4cc2e8d.jpg",
     "static/media/Abel Gurung_CV-Sep.pdf": "/static/media/Abel Gurung_CV-Sep.f73153b5ab09bdfdc72f.pdf",
     "index.html": "/index.html",
-    "main.e22019c4.css.map": "/static/css/main.e22019c4.css.map",
-    "main.5db6be74.js.map": "/static/js/main.5db6be74.js.map"
+    "main.4bb51073.css.map": "/static/css/main.4bb51073.css.map",
+    "main.c029b8a3.js.map": "/static/js/main.c029b8a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e22019c4.css",
-    "static/js/main.5db6be74.js"
+    "static/css/main.4bb51073.css",
+    "static/js/main.c029b8a3.js"
   ]
 }
