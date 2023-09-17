@@ -16,11 +16,11 @@ const imgTitles = [
 function Home() {
   return (
     <div className="space-y-3">
-      <div className="flex flex-col md:grid md:grid-cols-12 md:items-center pt-4 md:py-[3rem]">
+      <div className="flex flex-col md:grid md:grid-cols-12 md:items-center pt-4 md:py-[3rem] md:bg-[#fffffe] rounded-md md:shadow ">
         <div className="col-span-12 md:col-span-4">
           <Socials />
         </div>
-        <div className="col-span-12 md:col-span-8">
+        <div className="col-span-12 px-2 md:col-span-8 ">
           <Typewriter targetText="Hey I am Abel" speed={10} />
           {Intro}
         </div>
@@ -28,11 +28,15 @@ function Home() {
       <div>
         <h1 className="font-[500] p-4">Selected Works</h1>
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 justify-around text-sm">
             {anims.map((src, index) => (
-              <div key={index} className="space-y-2">
-                <img src={src} className="h-[12rem] md:h-[15rem]" />
-                <p className="text-center"> {imgTitles[index]}</p>
+              <div
+                key={index}
+                className="space-y-2  bg-[#fefefe] shadow h-[20rem] rounded-md"
+              >
+                <img src={src} className="mx-auto h-[15rem]" />
+
+                <p className="text-center px-4"> {imgTitles[index]}</p>
               </div>
             ))}
           </div>

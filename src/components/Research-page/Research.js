@@ -1,4 +1,4 @@
-import jsData from "./research-list";
+import jsData from "./research-page-data";
 import { NavLink, Link } from "react-router-dom";
 import Typewriter from "../Typewriter";
 
@@ -10,10 +10,7 @@ function Research() {
           <div className="researchcontainter " key={proj.id}>
             {/* <Link to={proj.path}> */}
             <p className="seriftitle m-5 md:m-12">{proj.title}</p>
-            <img
-              src={proj.image}
-              className="w-[15rem] md:w-[40rem] md:p-2 hover:scale-[1.15]"
-            />
+            <img src={proj.image} className="w-[30rem] md:w-[30rem] p-2" />
             {/* </Link> */}
             <p className="m-5 md:m-12"> {proj.summary}</p>
           </div>

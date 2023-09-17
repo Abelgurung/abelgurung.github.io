@@ -7,9 +7,7 @@ function App() {
     <Router>
       <div className="min-h-screen maincss">
         <Navbar />
-        <div className="">
-          <AppRoutes />
-        </div>
+        <AppRoutes />
       </div>
     </Router>
   );

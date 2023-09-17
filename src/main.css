@@ -27,13 +27,45 @@ h2 {
   @apply font-[300];
 }
 
-.navbutton {
-  @apply border border-white text-sm px-[1rem] md:text-sm py-[.15rem] md:py-1 md:px-8 font-[400] hover:text-black hover:bg-white;
+.color_palette {
+  @apply text-[#1d1d1f] bg-[#f3f3f5];
 }
 
-.mainfont {
-  @apply font-plex text-sm font-[200] bg-[#1c1b20] text-white px-[2rem] lg:px-[10rem] py-10 space-y-[2rem];
+.color_palette_2 {
+  @apply text-[#FAFAFA] bg-[#1d1d1f];
 }
+
+.seriftitle {
+  @apply font-serif text-base md:text-lg;
+}
+
+.researchcontainter {
+  @apply text-base border-[#e2e2e2] bg-[#ffffff] shadow-md border-[1px] w-full md:w-3/4 flex flex-col items-center rounded-md;
+}
+
+.navbutton {
+  @apply border color_palette_2 border-[#1d1d1f] text-sm px-[1rem] md:text-lg py-[.15rem] md:py-1 md:px-8 font-[400] hover:text-[#1d1d1f] hover:bg-[#f5f5f7] focus:outline-none;
+}
+
+.maincss {
+  @apply font-plex text-sm md:text-lg font-[300] color_palette px-[2rem] lg:px-[10rem] py-10 space-y-[2rem];
+}
+
+/* .seriftitle {
+  @apply font-serif text-lg text-[#D292FF];
+}
+
+.researchcontainter {
+  @apply text-base  border-[#D292FF] border w-3/4 flex flex-col items-center;
+}
+
+.navbutton {
+  @apply border border-[#D292FF] text-[#D292FF] text-sm px-[1rem] md:text-lg py-[.15rem] md:py-1 md:px-8 font-[400] hover:text-[#00002E] hover:bg-[#D292FF] focus:outline-none;
+}
+
+.maincss {
+  @apply font-plex text-sm md:text-lg font-[300] bg-[#00002E] text-[#ffff] px-[2rem] lg:px-[10rem] py-10 space-y-[2rem];
+} */
 
 /* research-container {
   @apply bg-[#2d2d36] py-4 grid gap-3 grid-cols-1 md:grid-cols-2 rounded-2xl;
