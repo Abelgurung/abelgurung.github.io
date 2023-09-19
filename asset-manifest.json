@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ee38739d.css",
-    "main.js": "/static/js/main.506c014e.js",
+    "main.js": "/static/js/main.20fdc4cb.js",
     "static/media/comp_22.gif": "/static/media/comp_22.d1c073ca41837a549884.gif",
     "static/media/cellTrajectory.gif": "/static/media/cellTrajectory.7b30b8d9b4e34a711b64.gif",
     "static/media/training_evolution.gif": "/static/media/training_evolution.e55e45d220028cfbb479.gif",
@@ -71,10 +71,10 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.ee38739d.css.map": "/static/css/main.ee38739d.css.map",
-    "main.506c014e.js.map": "/static/js/main.506c014e.js.map"
+    "main.20fdc4cb.js.map": "/static/js/main.20fdc4cb.js.map"
   },
   "entrypoints": [
     "static/css/main.ee38739d.css",
-    "static/js/main.506c014e.js"
+    "static/js/main.20fdc4cb.js"
   ]
 }
