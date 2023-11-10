@@ -8,11 +8,17 @@ function Research() {
       <div className="space-y-3  flex flex-col items-center ">
         {jsData.map((proj, index) => (
           <div className="researchcontainter " key={proj.id}>
-            {/* <Link to={proj.path}> */}
             <p className="seriftitle m-5 md:m-12">{proj.title}</p>
             <img src={proj.image} className="w-[30rem] md:w-[30rem] p-2" />
-            {/* </Link> */}
-            <p className="m-5 md:m-12"> {proj.summary}</p>
+
+            <Link to={proj.path}>
+              {proj.readmore ? (
+                <p className="border-2 rounded-md border-black mb-[2rem] font-medium p-2">
+                  {" "}
+                  Read More
+                </p>
+              ) : null}
+            </Link>
           </div>
         ))}
       </div>

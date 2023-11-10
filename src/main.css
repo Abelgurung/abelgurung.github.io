@@ -1,6 +1,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "katex/dist/katex.min.css";
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://use.typekit.net/rzj8eff.css");
@@ -13,6 +14,14 @@ img {
 
 h1 {
   @apply font-[600];
+}
+
+.katex {
+  font-size: 1.15rem;
+}
+
+ul {
+  @apply list-disc pl-5;
 }
 
 h2 {
@@ -28,11 +37,11 @@ h2 {
 }
 
 .color_palette {
-  @apply text-[#1d1d1f] bg-[#f3f3f5];
+  @apply text-[#1d1d1f] bg-[#FeFeFe];
 }
 
 .color_palette_2 {
-  @apply text-[#FAFAFA] bg-[#1d1d1f];
+  @apply text-[#FeFeFe] bg-[#1d1d1f];
 }
 
 .seriftitle {
@@ -40,11 +49,11 @@ h2 {
 }
 
 .researchcontainter {
-  @apply text-base border-[#e2e2e2] bg-[#ffffff] shadow-md border-[1px] w-full md:w-3/4 flex flex-col items-center rounded-md;
+  @apply text-base border-[#e2e2e2] bg-[#ffffff] shadow-md border-[1px] w-full md:w-3/4 flex flex-col items-center rounded-md pb-[3rem] lg:w-2/4;
 }
 
 .navbutton {
-  @apply border color_palette_2 border-[#1d1d1f] text-sm px-[1rem] md:text-lg py-[.15rem] md:py-1 md:px-8 font-[400] hover:text-[#1d1d1f] hover:bg-[#f5f5f7] focus:outline-none;
+  @apply border color_palette_2 border-[#1d1d1f] text-sm px-[1rem] md:text-lg py-[.15rem] md:py-1 md:px-8 font-[400] hover:text-[#1d1d1f] hover:bg-[#FeFeFe] focus:outline-none;
 }
 
 .maincss {

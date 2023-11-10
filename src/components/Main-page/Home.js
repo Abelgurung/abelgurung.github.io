@@ -16,11 +16,11 @@ const imgTitles = [
 function Home() {
   return (
     <div className="space-y-3">
-      <div className="flex flex-col md:grid md:grid-cols-12 md:items-center pt-4 md:py-[3rem] md:bg-[#fffffe] rounded-md md:shadow ">
+      <div className="flex flex-col md:grid md:grid-cols-12 md:items-center pt-3 md:py-[3rem]   ">
         <div className="col-span-12 md:col-span-4">
           <Socials />
         </div>
-        <div className="col-span-12 px-2 md:col-span-8 ">
+        <div className="col-span-12 md:col-span-8 ">
           <Typewriter targetText="Hey I am Abel" speed={10} />
           {Intro}
         </div>
@@ -32,7 +32,7 @@ function Home() {
             {anims.map((src, index) => (
               <div
                 key={index}
-                className="space-y-2  bg-[#fefefe] shadow h-[20rem] rounded-md"
+                className="space-y-2 border border-[#d4d4d4] bg-[#fefefe] shadow h-[20rem] rounded-md"
               >
                 <img src={src} className="mx-auto h-[15rem]" />
 

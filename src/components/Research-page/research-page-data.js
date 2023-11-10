@@ -1,7 +1,15 @@
 const Data = [
   {
+    id: 4,
+    title: "Coarse Graining Transition Matrix",
+    summary: "Read more",
+    readmore: false,
+    path: "/transition_matrix",
+    image: require("./2023-project-1/coarse.png"),
+  },
+  {
     id: 3,
-    title: "Investigating Cell Fate Trajectories Using Kinetic Monte Carlo",
+    title: "Investigating Cell Fate Trajectories",
     summary: "",
     path: "/project1",
     image: require("./2023-project-3/cellTrajectory.gif"),
