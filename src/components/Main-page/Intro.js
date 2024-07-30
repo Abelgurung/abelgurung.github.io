@@ -7,8 +7,9 @@
 // In your React component file
 const intro = (
   <span>
-    I'm in my final year of undergrad, majoring in{" "}
-    <span className="font-medium  ">Mathematics</span> with a minor in{" "}
+    I’m a <span className="font-medium ">Computer Science PhD</span> Student at
+    Purdue University. My undergraduate major was in{" "}
+    <span className="font-medium ">Mathematics</span> with a minor in{" "}
     <span className="font-medium ">Computer Science</span> and{" "}
     <span className="font-medium ">Biological Sciences</span>. I am broadly
     interested in leveraging computational methods to develop tools and
