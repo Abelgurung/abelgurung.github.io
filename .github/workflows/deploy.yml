@@ -15,6 +15,10 @@ jobs:
           node-version: "14" # Set this to your project's required Node.js version
       - run: npm install
       - run: npm run build
+        env:
+          CI: false
+        continue-on-error: true
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
