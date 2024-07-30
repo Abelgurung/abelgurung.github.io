@@ -114,26 +114,3 @@ function Research() {
 }
 
 export default Research;
-
-// To construct a transition probability matrix for set \(B\), which we will denote as \(Q\), with dimensions \((M+1) \times (M+1)\), we aggregate the transition probabilities from the matrix \(P\) based on the mapping defined by the surjective function \(F\). The entry \(Q_{xy}\) in the matrix \(Q\), representing the transition probability from group \(B_x\) to group \(B_y\), is computed as follows:
-
-// \begin{enumerate}
-//     \item Identify all cells in group \(B_x\) and all cells in group \(B_y\) through the mapping function \(F\).
-//     \item For each pair of cells \((A_i, A_j)\) such that \(A_i\) belongs to group \(B_x\) and \(A_j\) belongs to group \(B_y\), extract the corresponding transition probabilities \(P_{ij}\) from the matrix \(P\).
-//     \item Sum all the extracted transition probabilities to obtain a cumulative transition probability from group \(B_x\) to group \(B_y\).
-//     \item Normalize this cumulative transition probability by dividing it by the total sum of transition probabilities originating from group \(B_x\), to yield the entry \(Q_{xy}\).
-// \end{enumerate}
-
-// Mathematically, this can be expressed as:
-
-// \[
-// Q_{xy} = \frac{\sum_{i \in F^{-1}(B_x), j \in F^{-1}(B_y)} P_{ij}}{\sum_{i \in F^{-1}(B_x), k \in A} P_{ik}}
-// \]
-
-// Where:
-// \begin{itemize}
-//     \item \(F^{-1}(B_x)\) denotes the preimage of \(B_x\) under \(F\), representing all cells in set \(A\) that are mapped to group \(B_x\).
-//     \item The denominator represents the total sum of transition probabilities originating from group \(B_x\), ensuring the probabilities in each row of matrix \(Q\) sum to 1, maintaining the property of a probability matrix.
-// \end{itemize}
-
-// Through this procedure, we construct a transition probability matrix for set \(B\) that leverages the detailed transition probabilities available for set \(A\), facilitating the analysis of group-level dynamics in the sc-RNA-seq data.
