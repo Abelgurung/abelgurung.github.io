@@ -5,7 +5,7 @@ import Home from "./components/Main-page/Home";
 import CVPage from "./components/cv-page/CV";
 import Project1 from "./components/Research-page/2023-project-1/example";
 
-import Undergrad_resources from "./components/resources/undergrad/undergradResources";
+import Undergrad_resources from "./components/resources/undergrad/undergrad_resources";
 
 const AppRoutes = () => {
   return (
