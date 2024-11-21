@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.55ea8cb6.css",
-    "main.js": "/static/js/main.f43c089c.js",
+    "main.js": "/static/js/main.b394e28f.js",
     "static/media/comp_22.gif": "/static/media/comp_22.d1c073ca41837a549884.gif",
     "static/media/cellTrajectory.gif": "/static/media/cellTrajectory.7b30b8d9b4e34a711b64.gif",
     "static/media/training_evolution.gif": "/static/media/training_evolution.e55e45d220028cfbb479.gif",
+    "static/media/Abel Gurung_2pageCV.pdf": "/static/media/Abel Gurung_2pageCV.5107eaa9085ff4f1bb50.pdf",
     "static/media/Abel_Gurung_SMART_presentation.jpg": "/static/media/Abel_Gurung_SMART_presentation.d90de5743d22b4cc2e8d.jpg",
-    "static/media/Abel Gurung_CV-july-24.pdf": "/static/media/Abel Gurung_CV-july-24.48e8755231fb63d4b3e5.pdf",
     "static/media/transition.png": "/static/media/transition.316a9933685136c1a191.png",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/coarse.png": "/static/media/coarse.9beb1630de9112c8e0fd.png",
@@ -72,10 +72,10 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.55ea8cb6.css.map": "/static/css/main.55ea8cb6.css.map",
-    "main.f43c089c.js.map": "/static/js/main.f43c089c.js.map"
+    "main.b394e28f.js.map": "/static/js/main.b394e28f.js.map"
   },
   "entrypoints": [
     "static/css/main.55ea8cb6.css",
-    "static/js/main.f43c089c.js"
+    "static/js/main.b394e28f.js"
   ]
 }
