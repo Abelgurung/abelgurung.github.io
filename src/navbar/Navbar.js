@@ -42,7 +42,7 @@ function Navbar() {
               className="navbutton"
             >
               📚 Resources
-              <i class="fa fa-caret-down ml-2"></i>
+              <i className="fa fa-caret-down ml-2"></i>
             </button>
 
             {isResourcesOpen && (
@@ -80,21 +80,23 @@ function Navbar() {
           </Link>
           <Link
             to="/cv"
-            onClick={() => setIsOpen(false)}
+            onClick={() => {
+              setIsOpen(false);
+              setResourcesOpen(false);
+            }}
             className="block w-full navbutton"
           >
             🧾 CV
           </Link>
           <div className="relative">
             <button
-              className="w-full navbutton flex justify-between "
+              className="w-full navbutton flex justify-between"
               onClick={() => {
-                setIsOpen(false);
-                setResourcesOpen(false);
+                setResourcesOpen(!isResourcesOpen);
               }}
             >
               📚 Resources
-              <i class="fa fa-caret-down"></i>
+              <i className="fa fa-caret-down"></i>
             </button>
             {isResourcesOpen && (
               <div className="mt-2 shadow-md w-full z-10">
