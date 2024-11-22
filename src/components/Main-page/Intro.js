@@ -13,9 +13,7 @@ const intro = (
     <span className="font-medium ">Computer Science</span> and{" "}
     <span className="font-medium ">Biological Sciences</span>. I am broadly
     interested in leveraging computational methods to develop tools and
-    simulations that accelerate advancements in biomedical research. My
-    background includes hands-on research experience in biomedical research,
-    computational biology, and machine learning.
+    simulations that accelerate advancements in biomedical research.
   </span>
 );
 

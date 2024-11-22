@@ -11,6 +11,10 @@ function App() {
           <i class="fab fa-linkedin"></i> Linkedin
         </a>
         <br />
+        <a href="https://scholar.google.com/citations?user=56ZyX08AAAAJ&hl=en">
+          <i className="fa fa-book"></i> Google Scholar
+        </a>
+        <br />
         <a href="https://github.com/Abelgurung">
           <i class="fab fa-github"></i> Github
         </a>
