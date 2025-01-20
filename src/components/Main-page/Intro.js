@@ -11,9 +11,13 @@ const intro = (
     Purdue University. My undergraduate major was in{" "}
     <span className="font-medium ">Mathematics</span> with a minor in{" "}
     <span className="font-medium ">Computer Science</span> and{" "}
-    <span className="font-medium ">Biological Sciences</span>. I am broadly
-    interested in leveraging computational methods to develop tools and
-    simulations that accelerate advancements in biomedical research.
+    <span className="font-medium ">Biological Sciences</span>. My current
+    research focus is development of more efficent{" "}
+    <span className="font-medium">pretraining</span> and{" "}
+    <span className="font-medium">fine-tuning</span> methods for machine
+    learning models. I am also broadly interested in leveraging computational
+    methods to develop tools and simulations that accelerate advancements in
+    biomedical research.
   </span>
 );
 
