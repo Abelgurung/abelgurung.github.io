@@ -13,7 +13,7 @@ const AppRoutes = () => {
       <Route path="/research" element={<ResearchPage />} />
       <Route path="/cv" element={<CVPage />} />
       <Route path="/" element={<Home />} />
-      <Route path="/transition_matrix" element={<Project1 />} />
+      <Route path="/3Dvisualization" element={<Project1 />} />
       <Route path="/undergrad_resources" element={<Undergrad_resources />} />
     </Routes>
   );
