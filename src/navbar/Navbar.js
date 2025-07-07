@@ -18,6 +18,7 @@ function Navbar() {
           🏠 Home
         </Link>
         <div className="hidden md:flex space-x-4">
+          {/*
           <Link
             to="/research"
             onClick={() => {
@@ -27,6 +28,7 @@ function Navbar() {
           >
             🧬 Research
           </Link>
+          */}
           <Link
             to="/cv"
             className="navbutton"
@@ -68,6 +70,7 @@ function Navbar() {
 
       {isOpen && (
         <div className="md:hidden pt-4 space-y-1">
+          {/*
           <Link
             to="/research"
             onClick={() => {
@@ -78,6 +81,7 @@ function Navbar() {
           >
             🧬 Research
           </Link>
+          */}
           <Link
             to="/cv"
             onClick={() => {

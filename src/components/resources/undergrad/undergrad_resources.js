@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 border border-[#d4d4d4] bg-[#fefefe] shadow rounded-md p-20">
       <div>
         Here are some resources I used as an undergrad to find and apply to STEM
         research internships. Most, if not all, accept international students
