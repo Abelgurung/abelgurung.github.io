@@ -1,4 +1,3 @@
-import Typewriter from "../Typewriter";
 import Intro from "./Intro";
 import Socials from "./Socials";
 
@@ -21,8 +20,7 @@ function Home() {
           <Socials />
         </div>
         <div className="col-span-12 md:col-span-8 text-base md:text-xl">
-          <Typewriter targetText="Hey I am Abel" speed={10} />
-          {Intro}
+          <Intro />
         </div>
       </div>
       <div>

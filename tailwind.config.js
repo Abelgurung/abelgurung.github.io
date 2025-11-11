@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         plex: ["IBM Plex Sans", "sans-serif"],
+        flecha: ["flecha-m", "serif"],
+        surt: ["surt", "sans-serif"],
       },
     },
   },

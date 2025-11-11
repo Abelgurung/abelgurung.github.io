@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import NavLinkWithTypewriter from "./NavLinkWithTypewriter";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,36 +9,39 @@ function Navbar() {
   return (
     <div>
       <div className="flex justify-between items-center">
-        <Link
+        <NavLinkWithTypewriter
           to="/"
           className="navbutton"
           onClick={() => {
             setResourcesOpen(false);
           }}
+          icon="🏠"
         >
-          🏠 Home
-        </Link>
+          Home
+        </NavLinkWithTypewriter>
         <div className="hidden md:flex space-x-4">
           {/*
-          <Link
+          <NavLinkWithTypewriter
             to="/research"
             onClick={() => {
               setResourcesOpen(false);
             }}
             className="navbutton"
+            icon="🧬"
           >
-            🧬 Research
-          </Link>
+            Research
+          </NavLinkWithTypewriter>
           */}
-          <Link
+          <NavLinkWithTypewriter
             to="/cv"
             className="navbutton"
             onClick={() => {
               setResourcesOpen(false);
             }}
+            icon="🧾"
           >
-            🧾 CV
-          </Link>
+            CV
+          </NavLinkWithTypewriter>
           <div className="relative">
             <button
               onClick={() => setResourcesOpen(!isResourcesOpen)}
@@ -49,7 +53,7 @@ function Navbar() {
 
             {isResourcesOpen && (
               <div className="absolute mt-2 border-gray-200 shadow-md z-10 w-full">
-                <Link
+                <NavLinkWithTypewriter
                   to="/undergrad_resources"
                   className="text-center navbutton w-full block"
                   onClick={() => {
@@ -57,7 +61,7 @@ function Navbar() {
                   }}
                 >
                   Undergrad
-                </Link>
+                </NavLinkWithTypewriter>
               </div>
             )}
           </div>
@@ -71,27 +75,29 @@ function Navbar() {
       {isOpen && (
         <div className="md:hidden pt-4 space-y-1">
           {/*
-          <Link
+          <NavLinkWithTypewriter
             to="/research"
             onClick={() => {
               setIsOpen(false);
               setResourcesOpen(false);
             }}
             className="block w-full navbutton"
+            icon="🧬"
           >
-            🧬 Research
-          </Link>
+            Research
+          </NavLinkWithTypewriter>
           */}
-          <Link
+          <NavLinkWithTypewriter
             to="/cv"
             onClick={() => {
               setIsOpen(false);
               setResourcesOpen(false);
             }}
             className="block w-full navbutton"
+            icon="🧾"
           >
-            🧾 CV
-          </Link>
+            CV
+          </NavLinkWithTypewriter>
           <div className="relative">
             <button
               className="w-full navbutton flex justify-between"
@@ -104,7 +110,7 @@ function Navbar() {
             </button>
             {isResourcesOpen && (
               <div className="mt-2 shadow-md w-full z-10">
-                <Link
+                <NavLinkWithTypewriter
                   to="/undergrad_resources"
                   onClick={() => {
                     setIsOpen(false);
@@ -113,7 +119,7 @@ function Navbar() {
                   className="block w-full navbutton"
                 >
                   Undergrad
-                </Link>
+                </NavLinkWithTypewriter>
               </div>
             )}
           </div>
