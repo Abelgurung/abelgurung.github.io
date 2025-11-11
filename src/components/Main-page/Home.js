@@ -11,6 +11,11 @@ const imgTitles = [
   "Finding Cell Fate Trajectory",
   "Highlighting intermediate cell states required to reached specific terminal cell state",
 ];
+const workLinks = [
+  "https://www.dl.begellhouse.com/journals/558048804a15188a,223214887937003e,6f18318f6c3906da.html",
+  "https://www.biorxiv.org/content/10.1101/2024.06.25.600667v1.abstract",
+  "https://www.biorxiv.org/content/10.1101/2024.06.25.600667v1.abstract",
+];
 
 function Home() {
   return (
@@ -30,7 +35,9 @@ function Home() {
             {anims.map((src, index) => (
               <div
                 key={index}
-                className="space-y-2 border border-[#d4d4d4] bg-[#fefefe] shadow h-[20rem] rounded-md"
+                className="space-y-2 border border-[#d4d4d4] bg-[#fefefe] shadow h-[20rem] rounded-md transition-transform duration-300 hover:scale-110"
+                onClick={() => window.open(workLinks[index], "_blank")}
+                style={{ cursor: "pointer" }}
               >
                 <img src={src} className="mx-auto h-[15rem]" />
 
