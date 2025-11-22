@@ -1,19 +1,19 @@
 import Intro from "./Intro";
 import Socials from "./Socials";
 
-import anim from "./Selected-work/training_evolution.gif";
-import anim2 from "./Selected-work/comp_22.gif";
-import anim3 from "./Selected-work/cellTrajectory.gif";
+import anim from "./Selected-work/hyperadapt.png";
+import anim2 from "./Selected-work/training_evolution.gif";
+import anim3 from "./Selected-work/comp_22.gif";
 
 const anims = [anim, anim2, anim3];
 const imgTitles = [
+  "HyperAdapt: Simple High-Rank Adaptation",
   "DNN Learning to Simulate Open Probability of Ion-channels ",
   "Finding Cell Fate Trajectory",
-  "Highlighting intermediate cell states required to reached specific terminal cell state",
 ];
 const workLinks = [
+  "https://arxiv.org/abs/2509.18629v2",
   "https://www.dl.begellhouse.com/journals/558048804a15188a,223214887937003e,6f18318f6c3906da.html",
-  "https://www.biorxiv.org/content/10.1101/2024.06.25.600667v1.abstract",
   "https://www.biorxiv.org/content/10.1101/2024.06.25.600667v1.abstract",
 ];
 
@@ -39,6 +39,12 @@ function Home() {
                 onClick={() => window.open(workLinks[index], "_blank")}
                 style={{ cursor: "pointer" }}
               >
+                {src === anim ? (
+                  <p className="text-center my-2">
+                    {" "}
+                    Outstanding Paper Award at NeurIPS CCFM Workshop 🏆
+                  </p>
+                ) : null}
                 <img src={src} className="mx-auto h-[15rem]" />
 
                 <p className="text-center px-4"> {imgTitles[index]}</p>
