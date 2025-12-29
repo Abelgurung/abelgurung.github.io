@@ -29,7 +29,7 @@ function Home() {
         </div>
       </div>
       <div>
-        <h1 className="font-[500] p-4">Selected Works</h1>
+        <h1 className="font-[400] p-4">Selected Works</h1>
         <div className="flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3 justify-around text-sm">
             {anims.map((src, index) => (
@@ -40,14 +40,22 @@ function Home() {
                 style={{ cursor: "pointer" }}
               >
                 {src === anim ? (
-                  <p className="text-center my-2">
+                  <p className="text-center mt-2">
                     {" "}
                     Outstanding Paper Award at NeurIPS CCFM Workshop 🏆
                   </p>
-                ) : null}
+                ) : (
+                  <p className="mt-2">
+                    {" "}
+                    <br />
+                  </p>
+                )}
                 <img src={src} className="mx-auto h-[15rem]" />
 
-                <p className="text-center px-4"> {imgTitles[index]}</p>
+                <p className="font-libre text-center px-4">
+                  {" "}
+                  {imgTitles[index]}
+                </p>
               </div>
             ))}
           </div>
