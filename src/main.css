@@ -51,7 +51,7 @@ h2 {
 }
 
 .researchcontainter {
-  @apply text-base border-[#e2e2e2] bg-[#ffffff] shadow-md border-[1px] w-full md:w-3/4 flex flex-col items-center rounded-md pb-[3rem] lg:w-2/4;
+  @apply text-base border-[#e2e2e2] bg-[#ffffff] shadow-md border-[1px] w-full md:w-3/4 flex flex-col items-center rounded-md pb-[3rem];
 }
 
 .navbutton {
@@ -59,7 +59,7 @@ h2 {
 }
 
 .maincss {
-  @apply font-plex text-sm md:text-lg font-[300] color_palette px-[2rem] lg:px-[8rem] py-10 space-y-[2rem];
+  @apply font-plex text-sm md:text-lg font-[300] color_palette px-[2rem] py-10 space-y-[2rem];
 }
 
 .hero-title {
