@@ -6,8 +6,10 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen maincss">
-        <Navbar />
-        <AppRoutes />
+        <div className="w-full max-w-7xl mx-auto space-y-[2rem]">
+          <Navbar />
+          <AppRoutes />
+        </div>
       </div>
     </Router>
   );
