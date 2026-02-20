@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.7267181f.css",
-    "main.js": "/static/js/main.cfcb1bce.js",
+    "main.js": "/static/js/main.6104d574.js",
     "static/media/comp_22.gif": "/static/media/comp_22.d1c073ca41837a549884.gif",
     "static/media/cellTrajectory.gif": "/static/media/cellTrajectory.7b30b8d9b4e34a711b64.gif",
     "static/media/training_evolution.gif": "/static/media/training_evolution.e55e45d220028cfbb479.gif",
+    "static/media/balanced_norm_optimizer.gif": "/static/media/balanced_norm_optimizer.587d55a8bcb57303f87d.gif",
     "static/media/Abel Gurung_2pageCV_jan.pdf": "/static/media/Abel Gurung_2pageCV_jan.610711d0668ef4be3437.pdf",
     "static/media/Abel_Gurung_SMART_presentation.jpg": "/static/media/Abel_Gurung_SMART_presentation.d90de5743d22b4cc2e8d.jpg",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
@@ -71,10 +72,10 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.7267181f.css.map": "/static/css/main.7267181f.css.map",
-    "main.cfcb1bce.js.map": "/static/js/main.cfcb1bce.js.map"
+    "main.6104d574.js.map": "/static/js/main.6104d574.js.map"
   },
   "entrypoints": [
     "static/css/main.7267181f.css",
-    "static/js/main.cfcb1bce.js"
+    "static/js/main.6104d574.js"
   ]
 }
