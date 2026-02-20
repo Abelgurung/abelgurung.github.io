@@ -2,18 +2,18 @@ import Intro from "./Intro";
 import Socials from "./Socials";
 
 import anim from "./Selected-work/hyperadapt.png";
-import anim2 from "./Selected-work/training_evolution.gif";
+import anim2 from "./Selected-work/balanced_norm_optimizer.gif";
 import anim3 from "./Selected-work/comp_22.gif";
 
 const anims = [anim, anim2, anim3];
 const imgTitles = [
   "HyperAdapt: Simple High-Rank Adaptation",
-  "DNN Learning to Simulate Open Probability of Ion-channels ",
+  "Norm Balancing Optimizers",
   "Finding Cell Fate Trajectory",
 ];
 const workLinks = [
   "https://arxiv.org/abs/2509.18629v2",
-  "https://www.dl.begellhouse.com/journals/558048804a15188a,223214887937003e,6f18318f6c3906da.html",
+  "https://www.sarthakmangla.com/blog/bam",
   "https://www.biorxiv.org/content/10.1101/2024.06.25.600667v1.abstract",
 ];
 
